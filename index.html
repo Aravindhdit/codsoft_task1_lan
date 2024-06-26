@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="neon-border">
+        <div class="container">
+            <h1 class="neon">Countdown Timer</h1>
+            <div id="timer" class="neon-timer">00:00:00</div>
+            <div class="input-container">
+                <input type="number" id="hours" class="neon-input" placeholder="HH" min="0">
+                <input type="number" id="minutes" class="neon-input" placeholder="MM" min="0" max="59">
+                <input type="number" id="seconds" class="neon-input" placeholder="SS" min="0" max="59">
+            </div>
+            <div class="buttons">
+                <button id="start" class="neon-button">Start</button>
+                <button id="stop" class="neon-button">Stop</button>
+                <button id="reset" class="neon-button">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
